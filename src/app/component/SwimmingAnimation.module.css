@@ -1,0 +1,12 @@
+.swimmingImage {
+    animation: swim 5s ease-in-out infinite; 
+  }
+  
+  @keyframes swim {
+    0%, 100% {
+      transform: translatex(0);
+    }
+    50% {
+      transform: translatex(50px);
+    }
+  }
