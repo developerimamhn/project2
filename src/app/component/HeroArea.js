@@ -31,7 +31,7 @@ const HeroArea = () => {
             <div className="container mx-auto">
                 <div className="flex justify-between items-end pt-[20px] sm:pt-[54px] lg:pt-[69px] pb-[60px] sm:pb-[70px] lg:pb-[100px] xl:pb-[120px] 2xl:pb-[141px]  sm:flex-row flex-col-reverse px-[24px] sm:px-[0]">
                     <div className="flex-1 pt-[100px] sm:pt-0">
-                        <Image className='w-[80%]' src={image4} alt="" />
+                        <Image className='w-[80%] pointer-events-none select-none' src={image4} alt="" />
                     </div>
                     <div className="flex-1">
                         <h1 className='Froggo-headding text-[70px] sm:text-[65px] md:text-[80px] lg:text-[110px] xl:text-[130px] 2xl:text-[156px] uppercase'>$Froggo</h1>
@@ -48,14 +48,14 @@ const HeroArea = () => {
                             <Image src={image5} alt="" />
                             </div>
                             <div className="relative flex-1">
-                                <Image className=' absolute top-[-50px] left-0 w-full animate-contrastEffect' src={image7} alt="" />
-                                <Image className='animate-contrastEffect' src={image6} alt="" />
+                                <Image className=' absolute top-[-50px] left-0 w-full animate-contrastEffect pointer-events-none select-none' src={image7} alt="" />
+                                <Image className='animate-contrastEffect pointer-events-none select-none' src={image6} alt="" />
                             </div>
                         </div>
                         
                     </div>
-                    <Image className=' absolute bottom-[0px] left-[50%] translate-x-[-50%]' src={image11} alt="" />
-                    <Image className='animate-contrastEffect z-10 absolute bottom-[-42px] left-[50%] translate-x-[-50%] w-full' src={image10} alt="" />
+                    <Image className='pointer-events-none select-none absolute bottom-[0px] left-[50%] translate-x-[-50%]' src={image11} alt="" />
+                    <Image className='pointer-events-none select-none animate-contrastEffect z-10 absolute bottom-[-10px] sm:bottom-[-20px] lg:bottom-[-42px] left-[50%] translate-x-[-50%] w-full ' src={image10} alt="" />
                 </div>
             </div>
             

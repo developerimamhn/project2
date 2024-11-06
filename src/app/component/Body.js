@@ -1,9 +1,13 @@
 import React from 'react';
 import Pagetwo from './Pagetwo';
+import Pagethree from './Pagethree';
 
 const Body = () => {
     return (
-        <Pagetwo/>
+        <main>
+            <Pagetwo/>
+            <Pagethree/>
+        </main>
     );
 };
 
