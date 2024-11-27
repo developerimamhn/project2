@@ -121,7 +121,7 @@
   }
   
   .swimmingEffect {
-    animation: swim 5s ease-in-out infinite; /* 3 seconds duration, looping */
+    animation: swim 5s ease-in-out infinite;
   }
 
   @keyframes swims {
@@ -134,7 +134,7 @@
   }
   
   .swimmingEffectone {
-    animation: swims 5s ease-in-out infinite; /* 3 seconds duration, looping */
+    animation: swims 5s ease-in-out infinite; 
   }
   .how-to-buy-section-h2{
     font-family: Milky Nice;
@@ -167,4 +167,63 @@
     -webkit-text-stroke: 2px #000A0D;
     text-shadow: 0px 2px 0px  #000000;
   }
+  .shadow-new-box-shadow{
+    box-shadow: 2px 2px 0px 0px #000A0D;
+  }
+  .Billion-Supply-header{
+    font-family: 'Milky';
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FCFEFF;
+  }
+  .text-shadow-custom-shadow{
+    text-shadow: 0px 2px 0px #000A0D;
+  }
+  .fotter-secend-area{
+    background: #FBE287;
+    border: 1px solid #000A0D;
+    box-shadow: 6px 6px 0px 0px #000A0D;
+  }
+  .backgroundtext{
+    background: #FCB297;
+    border: 1px solid #000A0D;
+    box-shadow: 2px 2px 0px 0px #000A0D;
+  }
+  .Billion-Supply-header-1{
+    font-family: 'Milky';
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-shadow: 0px 2px 0px #FCFEFF;
+    color: #000A0D;
+  }
+.headding-12{
+  font-family: "Milky";
+  font-weight: 400;
+  line-height: 84px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FCFEFF;
+  -webkit-text-stroke: 2px #000A0D;
+  text-shadow: 0px 2px 0px #000000;
+}
+.BUY-Frogg-btn{
+  background: #22DF2F;
+  border: 1px solid #000A0D;
+  box-shadow: 2px 2px 0px 0px #000A0D;
+  font-family: 'Milky';
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000A0D;
+  text-shadow: 0px 2px 0px 0px #22DF2F;
+}
 }

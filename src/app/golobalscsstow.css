@@ -20,5 +20,38 @@
         text-align: left;
         color: #FCFEFF;
       }
-      
+      .tokens—plenty-paragraph{
+        font-family: "Quicksand";
+        font-weight: 600;
+        line-height: 30.6px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      .tokens—plenty-paragraph-1{
+        font-family: "Quicksand";
+        font-weight: 600;
+        line-height: 30.6px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      .paragraph-12{
+        font-family: "Quicksand";
+        font-weight: 600;
+        line-height: 34.2px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      .all-rights-reserved{
+        font-family: 'Quicksand';
+        font-weight: 700;
+        line-height: 39.6px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FCFEFF;
+        text-shadow: 0px 1px 0px #000000;
+      }
   }
