@@ -9,11 +9,16 @@ import image19 from './image/image19.png';
 import image4 from './image/image2.png';
 import image5 from './image/image3.png';
 import image10 from './image/image10.png';
+import image20 from './image/image20.png';
+import image21 from './image/image21.png';
+import image13 from './image/image13.png';
 
 
 const Footer = () => {
     return (
         <div className='bg-[#8B4EE7] relative overflow-hidden'>
+            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute top-[-10px] sm:top-[-20px] lg:top-[-42px] left-[50%] translate-x-[-50%] w-full select-none ' src={image10} alt="" />
+            <div><Image className='absolute top-[76px] left-0 w-full z-0 swimmingEffect pointer-events-none pb-[76px]select-none' src={image13} alt='swming'/>
             <div className="container mx-auto">
                 <div className="">
                     <div className="container mx-auto pt-[50px] sm:pt-[60px] md:pt-[70px] lg:pt-[80px] xl:pt-[90px] 2xl:pt-[100px] pb-[60px] sm:pb-[90px] md:pb-[120px] lg:pb-[150px] xl:pb-[170px] 2xl:pb-[189px]">
@@ -52,7 +57,7 @@ const Footer = () => {
                                 </biv>
                             </div>
                             <div className='flex-1 flex justify-center items-end px-[24px] sm:px-0'>
-                                <Image className='mt-[130px]' src={image19} alt=""/>
+                                <Image className='mt-[130px] animate-contrastEffect pointer-events-none select-none animate-slowBounce' src={image19} alt=""/>
                             </div>
                         </div>
                     </div>
@@ -91,7 +96,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute bottom-[-8px] sm:bottom-[-20px] lg:bottom-[-42px] left-[50%] translate-x-[-50%] w-full select-none' src={image10} alt="" />
+            </div>
+            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute bottom-[-10px] sm:bottom-[-20px] lg:bottom-[-42px] left-[50%] translate-x-[-50%] w-full select-none' src={image10} alt="" />
+            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute bottom-[10px] sm:bottom-[20px] lg:bottom-[42px] left-[50%] translate-x-[-50%] w-full select-none' src={image20} alt="" />
+            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute bottom-0 left-[50%] translate-x-[-50%] w-full select-none' src={image21} alt="" />
         </div>
     );
 };
