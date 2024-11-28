@@ -3,15 +3,20 @@ import Navbar from "./Navbar";
 import HeroArea from "./HeroArea";
 import image8 from './image/image8.png';
 import image9 from './image/image9.png';
+import image22 from './image/image22.png';
 import Image from 'next/image';
+import starts from './image/stars.png';
 const Header = () => {
 
     return (
-        <div className="bg-[#8B4EE7]">
+        <div className="headderbackground">
+            <Image className='absolute top-[0] w-[100%] pointer-events-none select-none z-[-3]' src={image22} alt="" />
+
             <Navbar/>
             <HeroArea/>
-            <Image className='hidden sm:block animate-contrastEffect absolute top-[100px] 2xl:top-[16px] left-[16px] w-[100px] sm:w-auto' src={image8} alt="" />
-            <Image className='animate-contrastEffect absolute top-[11px] left-[0px] w-[70%]' src={image9} alt="" />
+
+            <Image className='animate-contrastEffect absolute right-[50px] top-[70px] w-[100px] sm:w-auto pointer-events-none select-none' src={image8} alt="" />
+            <Image className='animate-contrastEffect absolute top-[30px] left-[50%] translate-x-[-50%] w-[90%]  pointer-events-none select-none  z-[-2]' src={starts} alt="" />
         </div>
     );
 };

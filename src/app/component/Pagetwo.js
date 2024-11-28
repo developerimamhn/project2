@@ -7,11 +7,11 @@ import image14 from './image/image14.png';
 
 const Pagetwo = () => {
     return (
-        <div className="bg-[#6A3AB2] relative pt-[76px] overflow-hidden">
+        <div className="bg-[#3DC0BD] relative pt-[76px] overflow-hidden">
 
 
 
-            <Image className='absolute top-[76px] left-0 w-full z-0 swimmingEffect pointer-events-none pb-[76px]select-none' src={image13} alt='swming'/>
+            <Image className='absolute top-[76px] left-0 w-full z-0 swimmingEffect pointer-events-none pb-[76px] select-none' src={image13} alt='swming'/>
             
             <section className='container mx-auto'>
                 <div className="flex justify-center items-center pt-[73px] relative flex-col-reverse sm:flex-row">

@@ -16,9 +16,9 @@ import image13 from './image/image13.png';
 
 const Footer = () => {
     return (
-        <div className='bg-[#8B4EE7] relative overflow-hidden'>
-            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute top-[-10px] sm:top-[-20px] lg:top-[-42px] left-[50%] translate-x-[-50%] w-full select-none ' src={image10} alt="" />
-            <div><Image className='absolute top-[76px] left-0 w-full z-0 swimmingEffect pointer-events-none pb-[76px]select-none' src={image13} alt='swming'/>
+        <div className='bg-[#3DC0BD] relative overflow-hidden'>
+            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute top-[-15px] sm:top-[-30px] lg:top-[-60px] left-[50%] translate-x-[-50%] w-full select-none ' src={image10} alt="" />
+            <div className='w-full'><Image className='absolute top-[76px] left-0 w-full swimmingEffect pointer-events-none pb-[76px] select-none' src={image13} alt='swming'/>
             <div className="container mx-auto">
                 <div className="">
                     <div className="container mx-auto pt-[50px] sm:pt-[60px] md:pt-[70px] lg:pt-[80px] xl:pt-[90px] 2xl:pt-[100px] pb-[60px] sm:pb-[90px] md:pb-[120px] lg:pb-[150px] xl:pb-[170px] 2xl:pb-[189px]">
@@ -29,14 +29,14 @@ const Footer = () => {
                                     <Image src={image18} className='mt-[52px] w-[90px] sm:w-fit' alt=""/>
                                 </div>
                                 <div className='flex flex-col sm:flex-row gap-[16px] w-full'>
-                                    <div className='bg-[#6A3AB2] py-[14px] sm:py-[16px] lg:py-[20px] 2xl:py-[24px] border border-[#000A0D] shadow-new-box-shadow pl-[38px] pr-[36px] rounded-[24px] w-full sm:w-[90%]'>
+                                    <div className='bg-[#404547] py-[14px] sm:py-[16px] lg:py-[20px] 2xl:py-[24px] border border-[#000A0D] shadow-new-box-shadow pl-[38px] pr-[36px] rounded-[24px] w-full sm:w-[90%]'>
                                         <h2 className='Billion-Supply-header text-[32px] text-center sm:text-left'>1 Billion Supply</h2>
                                         <div className='border-b border-dashed sm:w-[85%] border-[#FCFEFF] mt-[16px]'></div>
                                         <h4 className='text-[17px] tokens—plenty-paragraph text-[#FCFEFF] mt-[12px]'>
                                         Limited to 1 billion tokens—<br/>plenty of bones to go around!
                                         </h4>
                                     </div>
-                                    <div className='bg-[#6A3AB2] py-[14px] sm:py-[16px] lg:py-[20px] 2xl:py-[24px] border border-[#000A0D] shadow-new-box-shadow pl-[38px] pr-[36px] rounded-[24px] w-full'>
+                                    <div className='bg-[#404547] py-[14px] sm:py-[16px] lg:py-[20px] 2xl:py-[24px] border border-[#000A0D] shadow-new-box-shadow pl-[38px] pr-[36px] rounded-[24px] w-full'>
                                         <h2 className='Billion-Supply-header text-[32px] text-center'>Liquidity Locked</h2>
                                         <div className='border-b border-dashed w-[100%] border-[#FCFEFF] mt-[16px]'></div>
                                         <h4 className='text-[17px] tokens—plenty-paragraph text-[#FCFEFF] mt-[12px]'>
@@ -97,9 +97,9 @@ const Footer = () => {
                 </div>
             </div>
             </div>
-            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute bottom-[-10px] sm:bottom-[-20px] lg:bottom-[-42px] left-[50%] translate-x-[-50%] w-full select-none' src={image10} alt="" />
-            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute bottom-[10px] sm:bottom-[20px] lg:bottom-[42px] left-[50%] translate-x-[-50%] w-full select-none' src={image20} alt="" />
-            <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute bottom-0 left-[50%] translate-x-[-50%] w-full select-none' src={image21} alt="" />
+            <Image className='pointer-events-none animate-contrastEffect  absolute bottom-[-10px] sm:bottom-[-20px] lg:bottom-[-42px] left-[50%] translate-x-[-50%] w-full select-none' src={image10} alt="" />
+            <Image className='pointer-events-none animate-contrastEffect  absolute bottom-[10px] sm:bottom-[20px] lg:bottom-[42px] left-[50%] translate-x-[-50%] w-full select-none' src={image20} alt="" />
+            <Image className='pointer-events-none animate-contrastEffect  absolute bottom-0 left-[50%] translate-x-[-50%] w-full select-none' src={image21} alt="" />
         </div>
     );
 };

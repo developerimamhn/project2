@@ -10,7 +10,7 @@
         font-weight: 600;
         line-height: 36px;
         text-align: left;
-        color: #FCFEFF;
+        color: #000A0D;
       }
       .we-recommend-using{
         font-family: "Quicksand";
@@ -18,7 +18,7 @@
         font-weight: 600;
         line-height: 30.6px;
         text-align: left;
-        color: #FCFEFF;
+        color: #000A0D;
       }
       .tokens—plenty-paragraph{
         font-family: "Quicksand";
@@ -43,6 +43,7 @@
         text-align: left;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
+        color: #FCFEFF;
       }
       .all-rights-reserved{
         font-family: 'Quicksand';
