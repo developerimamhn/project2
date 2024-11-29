@@ -62,12 +62,14 @@ const Pagethree = () => {
                     </div>
                 </div>
             </div>
-            <div className='relative w-[100%vh]'>
-                <div className='bg-[#3DC0BD] h-[180px] absolute bottom-0 w-[100vh]'></div>
-            <Image className=' animate-contrastEffect w-full bottom-[-15px] sm:bottom-[-30px] lg:bottom-[-72px] relative' src={image16} alt="" />
+            <div className='relative w-[100%]'>
+                <div className='bg-[#3DC0BD] h-[15%] absolute bottom-0 w-[100%]'></div>
+            <Image className=' animate-contrastEffect w-full  relative' src={image16} alt="" />
             </div>
         </div>
     );
 };
 
 export default Pagethree;
+
+// bottom-[-15px] sm:bottom-[-30px] lg:bottom-[-72px]

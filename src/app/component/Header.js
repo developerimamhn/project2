@@ -9,13 +9,13 @@ import starts from './image/stars.png';
 const Header = () => {
 
     return (
-        <div className="headderbackground">
+        <div className="headderbackground h-fit bg-[#3DC0BD] md:bg-transparent">
             <Image className='absolute top-[0] w-[100%] pointer-events-none select-none z-[-3]' src={image22} alt="" />
 
             <Navbar/>
             <HeroArea/>
 
-            <Image className='animate-contrastEffect absolute right-[50px] top-[70px] w-[100px] sm:w-auto pointer-events-none select-none' src={image8} alt="" />
+            <Image className='animate-contrastEffect absolute right-[50px] top-[70px] w-[100px] sm:w-auto pointer-events-none select-none md:block hidden' src={image8} alt="" />
             <Image className='animate-contrastEffect absolute top-[30px] left-[50%] translate-x-[-50%] w-[90%]  pointer-events-none select-none  z-[-2]' src={starts} alt="" />
         </div>
     );
