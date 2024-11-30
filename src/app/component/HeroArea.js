@@ -45,7 +45,7 @@ const HeroArea = () => {
                         <label htmlFor='copy' className='TOKEN-ADDRESS block mb-[25px]'>TOKEN ADDRESS:</label>
 
                         <div id='copy' className='flex justify-between items-center w-fit sm:w-full py-[8px] sm:py-[12px] pr-[12px] pl-[16px] rounded-xl md:rounded-2xl xl:rounded-3xl text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[22px] relative z-50'><input type="text" className='w-full bg-transparent border-none placeholder:text-[#FCFEFF] relative z-50' placeholder='CJ8oT6dHzyHsXBq6JdhRHiRto3Le96pHyPchqfYdPxhN' /><button title={text} className='copy-styling-items py-[8px] sm:py-[10px] xl:py-[12px] 2xl:py-[14px] px-[14px] sm:px-[16px] xl:px-[22px] 2xl:px-[24px] rounded-lg sm:rounded-xl lg:rounded-[16px] ml-[32px] duration-300  text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[22px] xl:leading-[22px] 2xl:leading-[28.6px] relative z-50' onClick={handleChangeText}>{text}</button></div> 
-                        <div className="flex items-center pt-[52px] flex-col md:flex-row gap-[30px] gap-0">
+                        <div className="flex items-center pt-[52px] flex-col md:flex-row gap-[30px] sm:gap-0">
                             <div className="flex-1">
                             <Image className='pointer-events-none select-none w-screen sm:w-[80%] 2xl:w-auto' src={image5} alt="" />
                             </div>
