@@ -62,10 +62,10 @@ const Navbar = () => {
                     ${toggle ? 'right-[10]' :'right-[130%]' }
                     ${toggle ? 'opacity-100' : 'opacity-10'} 
                     `} >
-                    <Link className={`Link-manu-bar`} href="/">home</Link>
-                    <Link className='Link-manu-bar' href="/">About</Link>
-                    <Link className='Link-manu-bar' href="/">Tokenomics</Link>
-                    <Link className='Link-manu-bar' href="/">disclaimer</Link>
+                    <Link className={`Link-manu-bar`} href="#home">home</Link>
+                    <Link className='Link-manu-bar' href="#about">About</Link>
+                    <Link className='Link-manu-bar' href="#Tokenomics">Tokenomics</Link>
+                    <Link className='Link-manu-bar' href="#disclaimer">disclaimer</Link>
                 </nav>
 
                 

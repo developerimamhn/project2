@@ -7,7 +7,7 @@ import image14 from './image/image14.png';
 
 const Pagetwo = () => {
     return (
-        <div className="bg-[#3DC0BD] relative pt-[76px] overflow-hidden">
+        <div className="bg-[#3DC0BD] relative pt-[76px] overflow-hidden" id='home'>
 
 
 

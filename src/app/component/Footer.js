@@ -16,7 +16,7 @@ import image13 from './image/image13.png';
 
 const Footer = () => {
     return (
-        <div className='bg-[#3DC0BD] relative overflow-hidden'>
+        <div className='bg-[#3DC0BD] relative overflow-hidden' id='disclaimer'>
             {/* <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute top-[-15px] sm:top-[-30px] lg:top-[-60px] left-[50%] translate-x-[-50%] w-full select-none ' src={image10} alt="" /> */}
             <div className='w-full'><Image className='absolute top-[76px] left-0 w-full swimmingEffect pointer-events-none pb-[76px] select-none' src={image13} alt='swming'/>
             <div className="container mx-auto">

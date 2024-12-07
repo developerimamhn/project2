@@ -26,7 +26,7 @@ const HeroArea = () => {
         }, 2000);
     };
     return (
-        <div className='relative '>
+        <div className='relative ' id='Tokenomics'>
             
             
             <Image className='pointer-events-none select-none absolute bottom-[-40px] left-[50%] translate-x-[-50%] z-[-1] h-[100%]  md:block hidden' src={image23} alt="" />

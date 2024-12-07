@@ -8,7 +8,7 @@ import image16 from './image/image16.png'
 
 const Pagethree = () => {
     return (
-        <div className='lineargredientimagebackground relative z-0'>
+        <div className='lineargredientimagebackground relative z-0' id='about'>
             
                         <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute top-[-10px] sm:top-[-20px] lg:top-[-42px] left-[50%] translate-x-[-50%] w-full select-none ' src={image10} alt="" />
                         {/* <Image className='pointer-events-none animate-contrastEffect !z-[999] absolute bottom-[-10px] sm:bottom-[-20px] lg:bottom-[-42px] left-[50%] translate-x-[-50%] w-full select-none ' src={image10} alt="" /> */}
